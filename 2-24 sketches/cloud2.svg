@@ -1,0 +1,18 @@
+<svg width="595" height="880" viewBox="0 0 595 880" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>cloud2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1717 604)" figma:type="canvas">
+<g id="cloud2" style="mix-blend-mode:normal;" filter="url(#filter0_f)" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(-0.965926 0.258819 -0.258819 -0.965926 2322.13 118.791)" fill="#432557" fill-opacity="0.2" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" filterUnits="userSpaceOnUse" x="1717" y="-604" width="595" height="880" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<desc>type="foregroundBlur" size="100"</desc>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur"/>
+</filter>
+<path id="path0_fill" d="M 366.073 351.515C 297.653 467.768 455.859 718.916 226.185 699.008C -3.48953 679.1 -38.0674 492.902 33.0639 334.755C 104.195 176.608 43.3722 10.3697 205.583 0C 407.321 22.997 434.493 235.262 366.073 351.515Z"/>
+</defs>
+</svg>

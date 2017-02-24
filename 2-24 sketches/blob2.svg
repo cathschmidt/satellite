@@ -1,0 +1,18 @@
+<svg width="472" height="413" viewBox="0 0 472 413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>blob2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1989 1042)" figma:type="canvas">
+<g id="blob2" style="mix-blend-mode:normal;" filter="url(#filter0_f)" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(2039.56 -992)" fill="#432557" fill-opacity="0.7" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" filterUnits="userSpaceOnUse" x="1989" y="-1042" width="472" height="413" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<desc>type="foregroundBlur" size="50"</desc>
+<feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur"/>
+</filter>
+<path id="path0_fill" d="M 131.348 26.4928C 116.329 92.3259 -3.8243 91.674 0.0937174 186.839C 4.01173 282.003 251.5 339.363 308.312 300.906C 365.123 262.449 371 224.644 371 125.568C 371 26.4928 146.367 -39.3404 131.348 26.4928Z"/>
+</defs>
+</svg>

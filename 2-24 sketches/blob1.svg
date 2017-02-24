@@ -1,0 +1,18 @@
+<svg width="666" height="520" viewBox="0 0 666 520" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>blob1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1554 1174)" figma:type="canvas">
+<g id="blob1" style="mix-blend-mode:normal;" filter="url(#filter0_f)" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(1654.56 -1074)" fill="#743666" fill-opacity="0.8" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" filterUnits="userSpaceOnUse" x="1554" y="-1175" width="666" height="522" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<desc>type="foregroundBlur" size="100"</desc>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur"/>
+</filter>
+<path id="path0_fill" d="M 204.901 9.61408C 173.225 -22.0664 53.9072 28.3617 11.8805 105.062C -30.1463 181.762 39.8744 321.653 213.259 319.985C 386.643 318.318 465 256.624 465 209.937C 465 163.25 399.982 113.569 311.621 105.062C 216.24 95.8785 236.577 41.2945 204.901 9.61408Z"/>
+</defs>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="848" height="868" viewBox="0 0 848 868" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>cloud1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1561 1168)" figma:type="canvas">
+<g id="cloud1" style="mix-blend-mode:normal;" filter="url(#filter0_f)" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(0.880202 0.4746 -0.4746 0.880202 1977.94 -1203.74)" fill="#432557" fill-opacity="0.4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" filterUnits="userSpaceOnUse" x="1561" y="-1168" width="848" height="868" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<desc>type="foregroundBlur" size="100"</desc>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur"/>
+</filter>
+<path id="path0_fill" d="M 228.701 337.644C 220.832 417.644 547.381 486.195 388.79 537.624C 230.199 589.052 316.576 774.273 229.091 785.059C 131.374 797.107 -10.5627 732.503 0.62279 631.039C 11.8082 529.575 180.442 492.155 142.442 384.155C 131.157 352.083 25.5826 195.805 110.052 117.594C 135.129 94.3749 254.431 -4.81661 327.805 0.182456C 412.433 5.94822 438.674 124.451 425.752 181.836C 413.946 234.263 236.571 257.644 228.701 337.644Z"/>
+</defs>
+</svg>

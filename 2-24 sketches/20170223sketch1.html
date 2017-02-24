@@ -1,0 +1,543 @@
+<html>
+<head>
+	<title>Sketch 2/24</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+	<script src="tilt.jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+
+		const element = $('.js-tilt').tilt({
+	      maxTilt: 10,
+	      perspective: 300,
+	      easing: 'cubic-bezier(.03,.98,.52,.99)',
+	      scale: '1',
+	      speed: '400',
+	      transition: true,
+	      axis: null,
+	      reset: true,
+	      glare: false,
+	      maxGlare: 1
+		});
+
+		$(document).scroll(function() {
+			var scrollTop = $(document).scrollTop();
+			var height = $(document).height();
+
+			var fast = scrollTop * -.1;
+			var slow = scrollTop * .05;
+			var med = scrollTop * .1;
+			var med2 = scrollTop * .5;
+
+
+			$(".svg-stars2").css(
+				{"top": "calc(80vh + " + fast + "vh)"
+			});
+
+			$(".svg-stars1").css(
+				{"top": "calc(-5vh + " + med + "vh)"
+			});
+
+			$(".svg-cloud1").css(
+				{"top": "calc(-5vh + " + slow + "vh)"
+			});
+
+			$(".svg-cloud2").css(
+				{"top": "calc(80vh + " + med + "vh)"
+			});
+
+
+			$(".svg-stars3").css(
+				{"top": "calc(100vh + " + slow + "vh)"
+			});
+
+			$(".planet-1").css(
+				//top: 2vh;
+				//right: 10vw;
+				{"top": "calc(2vh + " + med2 + "vh)",
+				 "right": "calc(10vw + " + med + "vw)"
+
+			});
+
+			$(".planet-2").css(
+				//top: 30vh;
+				//left: 8vw;
+				{"top": "calc(30vh + " + med + "vh)",
+				 "left": "calc(8vw + " + med2 + "vw)"
+
+			});
+
+
+		});
+
+	});
+
+	</script>
+
+	<style>
+
+		* {
+			margin: 0;
+			padding: 0;
+			font-weight: normal;
+		}
+
+		body {
+			background: linear-gradient(#254d67, #0798A7, #3F2C57) no-repeat;
+			overflow-x: hidden;
+			font-family: 'Source Sans Pro', sans-serif;
+			color: white;
+			font-size: 1.5vw;
+			background-size: cover;
+			background-position: center;
+			height: 500vh;
+
+		}
+
+		p {
+			font-weight: 300;
+			font-size: 1.25em;
+			line-height: 1.5em;
+			padding-bottom: 1.5em;
+			text-shadow: 2px 2px 3px rgba(63, 51, 126, 0.8);
+		}
+
+		p.big {
+			font-size: 1.5em;
+		}
+
+		h1.title {
+			font-size: 3em;
+			font-weight: 200;
+			text-align: center;
+			text-shadow: 2px 2px 20px rgba(63, 51, 126, 1);
+			display: none;
+		}
+
+		h1 {
+			font-size: 4em;
+			display: block;
+			width: 90vw;
+			margin: auto;
+		}
+
+		h2 {
+			line-height: 1.25em;
+			font-size: 2.25em;
+			font-weight: 200;
+			text-shadow: 2px 2px 3px rgba(63, 51, 126, 0.3);
+		}
+
+		h3 {
+			/* color: #EAFF00; */
+			color: rgba(255,255,255,.75);
+			font-size: 1.25em;
+			font-weight: 300;
+			text-shadow: 2px 2px 3px rgba(63, 51, 126, 0.3);
+		}
+
+		h4 {
+			font-size: 1.5em;
+			display: none;
+			padding-left: 10vw;			
+			margin: auto;
+		}
+
+		.svg-cosmos {
+			position: absolute;
+			opacity: .5;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			background-image: url(cosmos.svg);
+			background-repeat: repeat-y;
+			background-position: 50% 0;
+			background-origin: padding-box;
+			background-size: 70%;
+			height: 500vh;
+			z-index: 1;
+			display: none;
+		}
+
+		.svg-stars1 {
+			position: absolute;
+			opacity: .5;
+			top: -5vh;
+			left: -5vw;
+			width: 50vw;
+			background-image: url(stars1.svg);
+			background-repeat: no-repeat;
+			background-position: 70% 0;
+			background-size: 100%;
+			height: 75vw;
+			z-index: 1;
+		}
+
+		.svg-stars2 {
+			position: absolute;
+			opacity: .5;
+			top: 80vh;
+			right: 10%;
+			width: 40vw;
+			background-image: url(stars2.svg);
+			background-repeat: no-repeat;
+			height: 30vw;
+			z-index: 1;
+		}
+
+		.svg-stars3 {
+			position: absolute;
+			transform: rotate(80deg);
+			opacity: .5;
+			top: 100vh;
+			left: -20%;
+			width: 50vw;
+			background-image: url(stars1.svg);
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+			height: 80vw;
+			z-index: 1;
+		}
+
+		.svg-stars4 {
+			position: absolute;
+			transform: rotate(-40deg);
+			opacity: .5;
+			top: 90vh;
+			right: -10%;
+			width: 60vw;
+			background-image: url(stars1.svg);
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+			height: 90vw;
+			z-index: 1;
+		}
+
+		.svg-cloud1 {
+			position: absolute;
+			opacity: 1;
+			top: -5vh;
+			left: -15vw;
+			width: 100vw;
+			background-image: url(cloud1.svg);
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+			height: 200vw;
+			z-index: 1;
+
+		}
+
+		.svg-cloud2 {
+			position: absolute;
+			transform: rotate(-80deg);
+			opacity: .5;
+			top: 60vh;
+			right: -20%;
+			width: 60vw;
+			background-image: url(cloud2.svg);
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+			height: 90vw;
+			z-index: 1;
+
+		}
+
+		.svg-cloud3 {
+			position: absolute;
+			opacity: .5;
+			top: 100vh;
+			right: 10vw;
+			width: 60vw;
+			background-image: url(cloud3.svg);
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+			height: 90vw;
+			z-index: 1;
+
+		}
+
+		.planet-1 {
+			position: absolute;
+			top: 2vh;
+			right: 10vw;
+			width: 5vw;
+			height: 5vw;
+			border-radius: 50%;
+			background-image: linear-gradient(#3F2C57, #245C7A);
+		}
+
+		.planet-2 {
+			position: absolute;
+			top: 30vh;
+			left: 8vw;
+			width: 2.5vw;
+			height: 2.5vw;
+			border-radius: 50%;
+			background-image: linear-gradient(#245C7A, #00B9A7);
+		}
+
+		.head {
+			width: 90vw;
+			margin: auto;
+			margin-top: 4vw;
+			z-index: 300;
+		}
+
+		.placeholder {
+			width: 15vw;
+			height: 15vw;
+			background-image: url(octa-01.svg);
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+			margin: auto;
+		}
+
+		.info {
+			clear: both;
+			display: flex;
+			justify-content: center;
+
+		}
+
+		.blob {
+			position: relative;
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+
+			text-align: center;
+		} 
+
+		.date1 {
+			background-image: url(blob1.svg);
+			height: 33vw;
+			width: 88vw;
+			left: 4em;
+			top: -8em;
+		}
+
+		.date2 {
+			background-image: url(blob1.svg);
+			left: -10em;
+			top: 0;
+			width: 75vw;
+			height: 27vw;
+		}
+
+		.place{
+			background-image: url(blob2.svg);
+			right: 8em;
+			width: 70vw;
+			height: 25vw;
+		}
+
+		.text-block {
+
+			/* background: rgba(63, 83, 122, 0.72);
+			border-bottom: 1px solid rgba(58, 180, 165, 0.5); */
+			margin: 2vw;
+			padding: 2vw;
+
+
+			width: 50vw;
+			margin: auto;
+			margin-top: 10vw;
+		} .text-block h2 {
+			display: inline-block;
+			padding-bottom: .2em;
+			margin-bottom: 1em;
+			border-bottom: 1px solid;
+		}
+
+		div.content {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 500vh;
+			z-index: 300;
+		}
+
+		a.tickets {
+			display: block;
+			text-decoration: none;
+			width: 15vw;
+			margin: auto;
+			background-color: #3F537A;
+			box-shadow: 4px 4px 0 rgba(32, 21, 84, .5);
+			padding: 2vw;
+			text-align: center;
+			color: white;
+			font-size: 1.5em;
+			font-weight: 300;
+			margin-top: -13vw;
+			z-index: 301;
+		} a.tickets:hover {
+			box-shadow: none;
+			background-color: #31405d;
+			/* margin-top: calc(2vw + 4px); */
+			cursor: pointer;
+		}
+
+		nav {
+			position: fixed;
+			z-index: 400;
+			bottom: 0px;
+			width: 100%;
+			background-image: linear-gradient(transparent, #245C7A);
+
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+		} nav a {
+			display: block;
+			color: rgba(255, 255, 255, .5);
+			text-decoration: none;
+			padding: 1em;
+			line-height: 1em;
+			font-weight: 200;
+			font-size: 1.5em;
+		} nav a:hover {
+			color: rgba(255, 255, 255, .8);
+			background-image: linear-gradient(#3F2C57, #245C7A);
+		} .logo {
+			position: relative;
+			bottom: 0;
+			left: 0;
+			width: 5vw;
+			height: 5vw;
+			background-image: url(octa-01.svg);
+			background-repeat: no-repeat;
+			background-position: 100% 0;
+			background-size: 100%;
+
+		}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="#">Speakers</a>
+		<a href="#">Schedule</a>
+		<a href="#">Workshops</a>
+		<a href="#">Venue</a>
+		<a href="#">FAQ</a>
+		<a href="#">Sponsors</a>
+	</nav>
+	<div class="planet-1"></div>
+	<div class="planet-2"></div>
+	<div class="svg-stars1"></div>
+	<div class="svg-stars2"></div>
+	<div class="svg-stars3"></div>
+	<div class="svg-stars4"></div>
+	<div class="svg-cloud1"></div>
+	<div class="svg-cloud2"></div>
+	<div class="svg-cloud3"></div>
+	<div class="content">
+		<section class="head">
+			<div class="placeholder"></div>
+			<h1 class="title">GitHub Satellite</h1>
+
+			<div class="info">
+
+				<div class="date1 blob">
+
+					<h2>May 22, 2017</h2>
+					<h3 style="margin-bottom: 1.5em;">pre-conference workshops</h3>
+
+				</div>
+
+				<div class="date2 blob">
+					<h2>May 23, 2017</h2>
+					<h3>conference</h3>
+
+				</div>
+
+				<div class="place blob">
+					<h2>Place Name</h2>
+					<h3>place detail</h3>
+
+				</div>
+				<!--
+				<div class="place block js-tilt">
+
+					<h2>Name of Place</h2>
+					<h3>a detail</h3>
+
+				</div> -->
+			</div>
+
+			<a class="tickets">Get Tickets</a>
+
+		</section>
+
+		<div class="text-block">
+			<h2>About GitHub Satellite</h2>
+
+			<p class="big">Git Merge is the pre-eminent Git-focused conference: a full-day offering technical content and user case studies, plus a day of workshops for Git users of all levels. Git Merge 2017 will take place February 2-3 in Brussels.</p>
+
+			<p>Git Merge is dedicated to amplifying new voices in the Git community and to showcasing the most thought-provoking projects from contributors, maintainers and community managers around the world.</p>
+
+		</div>
+	</div>
+
+
+	
+
+	<!-- <h1>Speakers &#8623;</h1>
+	<div class="speaker-grid">
+		<div class="speaker js-tilt">
+			<h2>Speaker Name</h2>
+			<h3>Speaker Title</h3>
+			<p>
+		</div>
+
+		<div class="speaker js-tilt">
+			<h2>Speaker Name</h2>
+			<h3>Speaker Title</h3>
+		</div>
+
+		<div class="speaker js-tilt">
+			<h2>Speaker Name</h2>
+			<h3>Speaker Title</h3>
+		</div>
+
+		<div class="speaker js-tilt">
+			<h2>Speaker Name</h2>
+			<h3>Speaker Title</h3>
+		</div>
+
+		<div class="speaker js-tilt">
+			<h2>Speaker Name</h2>
+			<h3>Speaker Title</h3>
+		</div>
+	</div>
+
+		<h1>Schedule</h1>
+		<h4>Day 1</h4>
+
+	<section>
+	</section>
+
+			<h1>Workshops</h1>
+			<h4>Day 2</h4>
+
+
+	<section>
+	</section> -->
+
+
+
+</body>
+</html>
